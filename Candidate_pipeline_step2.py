@@ -6,6 +6,7 @@ import astropy.units as u
 
 def cross_matching(input_file, output_file, catalogue = None, threshold = 30):
     '''
+    @author: Yu Wing Joshua Lee
     Important: upgrade numpy(1.25.2) and astropy(5.3.2) before running.
     Input_file and output_file are the path to the candidate list file.
     Threshold is in arcsecond.
